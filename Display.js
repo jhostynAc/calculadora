@@ -38,6 +38,8 @@ class Display {
         if(numero === '.' && this.valorActual.includes('.')) return
         this.valorActual = this.valorActual.toString() + numero.toString();
         this.imprimirValores();
+        console.log("numero 1:",this.valorAnterior)
+        console.log("numero 2:",this.valorActual)
     }
 
     imprimirValores() {
